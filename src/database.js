@@ -11,6 +11,7 @@ useNewUrlParser:true
   
 
 })
+//NOTES_APP_MONGODB_DATABASE=notes-app
 .then(db=>console.log('data is coneccted'))
 
 .catch(err=> console.log(err))
