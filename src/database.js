@@ -3,7 +3,7 @@ const mongoose= require('mongoose');
 /*const MONGODB_URI="mongodb+srv://root:milanesa2002@cluster0.r91gmys.mongodb.net/?retryWrites=true&w=majority"*/
 
 //
-mongoose.connect(process.env.MONGODB_URI,{
+mongoose.connect(process.env.MONGO_URL,{
 useUnifiedTopology:true,
 useNewUrlParser:true
 
